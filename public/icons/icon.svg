@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="116" fill="#071126"/>
+  <g filter="url(#glow)">
+    <path d="M128 264L256 150L384 264V370C384 384 373 396 358 396H154C139 396 128 384 128 370V264Z" stroke="url(#home)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M213 282C193 259 199 223 229 216C244 213 255 222 263 235C271 222 284 213 299 217C328 225 334 259 313 282L263 336L213 282Z" fill="url(#heart)"/>
+    <path d="M210 361L238 389L311 313" stroke="url(#check)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <defs>
+    <linearGradient id="home" x1="121" y1="162" x2="395" y2="383" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F472B6"/>
+      <stop offset="0.45" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="199" y1="217" x2="333" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185"/>
+      <stop offset="0.55" stop-color="#D946EF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="check" x1="210" y1="313" x2="311" y2="389" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDBA74"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="glow" x="65" y="88" width="382" height="371" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.53 0 1 0 0 0.25 0 0 1 0 1 0 0 0 0.6 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+</svg>
